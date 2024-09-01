@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack man</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Snack Man!</h1>
+    </header>
+
+    <div class="startDiv">
+        <div class="start">
+            <img src="images/icon.png" alt="logo">
+            <h1>Start</h1>
+        </div>
+    </div>
+
+    <main></main> 
+
+    <div class="score">
+        <h1>Score:</h1>
+        <p>0</p>
+    </div>
+
+    <div id="game-over-message" style="display: none;">Game Over</div>
+    
+    <button id="restart-button" onclick="restartGame()">Restart?</button>
+
+    <div class="leaderboard">
+        <h1>LeaderBoard:</h1>
+        <ol id="leaderboard-list">
+            
+        </ol>
+    </div>
+
+    <div class="lives">
+        <h1>Lives:</h1>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="controls">
+        <button id="lbttn">&#9664;</button> <!-- LEFT -->
+        <button id="ubttn">&#9650;</button> <!-- UP -->
+        <button id="rbttn">&#9654;</button> <!-- RIGHT -->
+        <button id="dbttn">&#9660;</button> <!-- DOWN -->
+    </div>
+
+</body>
+
+</html>
